@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26446B302B87BF1000D4222E /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26446B2F2B87BF1000D4222E /* TransactionViewController.swift */; };
+		26446B322B87BF2000D4222E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26446B312B87BF2000D4222E /* NotificationViewController.swift */; };
+		26446B342B87BF2C00D4222E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26446B332B87BF2C00D4222E /* SettingsViewController.swift */; };
+		2658B6B72B80A3F400299AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658B6B62B80A3F400299AEA /* AppDelegate.swift */; };
+		2658B6B92B80A3F400299AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658B6B82B80A3F400299AEA /* SceneDelegate.swift */; };
+		2658B6BB2B80A3F400299AEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658B6BA2B80A3F400299AEA /* ViewController.swift */; };
+		2658B6BE2B80A3F400299AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2658B6BC2B80A3F400299AEA /* Main.storyboard */; };
+		2658B6C02B80A3F500299AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2658B6BF2B80A3F500299AEA /* Assets.xcassets */; };
+		2658B6C32B80A3F500299AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2658B6C12B80A3F500299AEA /* LaunchScreen.storyboard */; };
+		2658B6CE2B80A3F500299AEA /* ComplexRNNaviagtionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658B6CD2B80A3F500299AEA /* ComplexRNNaviagtionTests.swift */; };
+		2658B6D82B80A3F500299AEA /* ComplexRNNaviagtionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658B6D72B80A3F500299AEA /* ComplexRNNaviagtionUITests.swift */; };
+		2658B6DA2B80A3F500299AEA /* ComplexRNNaviagtionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658B6D92B80A3F500299AEA /* ComplexRNNaviagtionUITestsLaunchTests.swift */; };
+		2666A2732B8F678C00C393AB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666A2722B8F678C00C393AB /* SwiftUIView.swift */; };
+		26A4E1C92B890C6A004D13EB /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4E1C82B890C6A004D13EB /* AppModule.swift */; };
+		26A4E1CC2B890CE7004D13EB /* ReactBridge in Frameworks */ = {isa = PBXBuildFile; productRef = 26A4E1CB2B890CE7004D13EB /* ReactBridge */; };
+		67608AE06037C635519CC9BA /* libPods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFE538DE33D6C5B2A0B259A /* libPods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.a */; };
+		A3842F5D3F70D05A291DF899 /* libPods-ComplexRNNaviagtion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5481ACE494A51CF67C16AE /* libPods-ComplexRNNaviagtion.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2658B6CA2B80A3F500299AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2658B6AB2B80A3F400299AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2658B6B22B80A3F400299AEA;
+			remoteInfo = ComplexRNNaviagtion;
+		};
+		2658B6D42B80A3F500299AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2658B6AB2B80A3F400299AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2658B6B22B80A3F400299AEA;
+			remoteInfo = ComplexRNNaviagtion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C4F9CD766D1999E7D97D48 /* Pods-ComplexRNNaviagtion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplexRNNaviagtion.debug.xcconfig"; path = "Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion.debug.xcconfig"; sourceTree = "<group>"; };
+		26446B2F2B87BF1000D4222E /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		26446B312B87BF2000D4222E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		26446B332B87BF2C00D4222E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2658B6B32B80A3F400299AEA /* ComplexRNNaviagtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexRNNaviagtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2658B6B62B80A3F400299AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2658B6B82B80A3F400299AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2658B6BA2B80A3F400299AEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2658B6BD2B80A3F400299AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2658B6BF2B80A3F500299AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2658B6C22B80A3F500299AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2658B6C42B80A3F500299AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2658B6C92B80A3F500299AEA /* ComplexRNNaviagtionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplexRNNaviagtionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2658B6CD2B80A3F500299AEA /* ComplexRNNaviagtionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexRNNaviagtionTests.swift; sourceTree = "<group>"; };
+		2658B6D32B80A3F500299AEA /* ComplexRNNaviagtionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplexRNNaviagtionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2658B6D72B80A3F500299AEA /* ComplexRNNaviagtionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexRNNaviagtionUITests.swift; sourceTree = "<group>"; };
+		2658B6D92B80A3F500299AEA /* ComplexRNNaviagtionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexRNNaviagtionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2666A2722B8F678C00C393AB /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		26A4E1C82B890C6A004D13EB /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
+		3A5481ACE494A51CF67C16AE /* libPods-ComplexRNNaviagtion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ComplexRNNaviagtion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		612676F4122EB3C58CEFD146 /* Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.release.xcconfig"; path = "Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.release.xcconfig"; sourceTree = "<group>"; };
+		87FAA24B4F352C111F2BF18F /* Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.debug.xcconfig"; path = "Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFE538DE33D6C5B2A0B259A /* libPods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B9633E315E010AABA7B6DA /* Pods-ComplexRNNaviagtionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplexRNNaviagtionTests.release.xcconfig"; path = "Target Support Files/Pods-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtionTests.release.xcconfig"; sourceTree = "<group>"; };
+		D816E2890C8539A405B75E38 /* Pods-ComplexRNNaviagtion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplexRNNaviagtion.release.xcconfig"; path = "Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion.release.xcconfig"; sourceTree = "<group>"; };
+		E17679D89178CC905CF1806E /* Pods-ComplexRNNaviagtionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplexRNNaviagtionTests.debug.xcconfig"; path = "Target Support Files/Pods-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtionTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2658B6B02B80A3F400299AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3842F5D3F70D05A291DF899 /* libPods-ComplexRNNaviagtion.a in Frameworks */,
+				26A4E1CC2B890CE7004D13EB /* ReactBridge in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2658B6C62B80A3F500299AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67608AE06037C635519CC9BA /* libPods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2658B6D02B80A3F500299AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5BFFA2FD52A1C017810AD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15C4F9CD766D1999E7D97D48 /* Pods-ComplexRNNaviagtion.debug.xcconfig */,
+				D816E2890C8539A405B75E38 /* Pods-ComplexRNNaviagtion.release.xcconfig */,
+				E17679D89178CC905CF1806E /* Pods-ComplexRNNaviagtionTests.debug.xcconfig */,
+				C7B9633E315E010AABA7B6DA /* Pods-ComplexRNNaviagtionTests.release.xcconfig */,
+				87FAA24B4F352C111F2BF18F /* Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.debug.xcconfig */,
+				612676F4122EB3C58CEFD146 /* Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2658B6AA2B80A3F400299AEA = {
+			isa = PBXGroup;
+			children = (
+				2658B6B52B80A3F400299AEA /* ComplexRNNaviagtion */,
+				2658B6CC2B80A3F500299AEA /* ComplexRNNaviagtionTests */,
+				2658B6D62B80A3F500299AEA /* ComplexRNNaviagtionUITests */,
+				2658B6B42B80A3F400299AEA /* Products */,
+				0A5BFFA2FD52A1C017810AD2 /* Pods */,
+				F923605E1A29D07C4F4FED8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2658B6B42B80A3F400299AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2658B6B32B80A3F400299AEA /* ComplexRNNaviagtion.app */,
+				2658B6C92B80A3F500299AEA /* ComplexRNNaviagtionTests.xctest */,
+				2658B6D32B80A3F500299AEA /* ComplexRNNaviagtionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2658B6B52B80A3F400299AEA /* ComplexRNNaviagtion */ = {
+			isa = PBXGroup;
+			children = (
+				2658B6B62B80A3F400299AEA /* AppDelegate.swift */,
+				2658B6B82B80A3F400299AEA /* SceneDelegate.swift */,
+				2658B6BA2B80A3F400299AEA /* ViewController.swift */,
+				26446B2F2B87BF1000D4222E /* TransactionViewController.swift */,
+				26446B312B87BF2000D4222E /* NotificationViewController.swift */,
+				26446B332B87BF2C00D4222E /* SettingsViewController.swift */,
+				2658B6BC2B80A3F400299AEA /* Main.storyboard */,
+				2658B6BF2B80A3F500299AEA /* Assets.xcassets */,
+				2658B6C12B80A3F500299AEA /* LaunchScreen.storyboard */,
+				2658B6C42B80A3F500299AEA /* Info.plist */,
+				26A4E1C82B890C6A004D13EB /* AppModule.swift */,
+				2666A2722B8F678C00C393AB /* SwiftUIView.swift */,
+			);
+			path = ComplexRNNaviagtion;
+			sourceTree = "<group>";
+		};
+		2658B6CC2B80A3F500299AEA /* ComplexRNNaviagtionTests */ = {
+			isa = PBXGroup;
+			children = (
+				2658B6CD2B80A3F500299AEA /* ComplexRNNaviagtionTests.swift */,
+			);
+			path = ComplexRNNaviagtionTests;
+			sourceTree = "<group>";
+		};
+		2658B6D62B80A3F500299AEA /* ComplexRNNaviagtionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2658B6D72B80A3F500299AEA /* ComplexRNNaviagtionUITests.swift */,
+				2658B6D92B80A3F500299AEA /* ComplexRNNaviagtionUITestsLaunchTests.swift */,
+			);
+			path = ComplexRNNaviagtionUITests;
+			sourceTree = "<group>";
+		};
+		F923605E1A29D07C4F4FED8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A5481ACE494A51CF67C16AE /* libPods-ComplexRNNaviagtion.a */,
+				BDFE538DE33D6C5B2A0B259A /* libPods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2658B6B22B80A3F400299AEA /* ComplexRNNaviagtion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2658B6DD2B80A3F500299AEA /* Build configuration list for PBXNativeTarget "ComplexRNNaviagtion" */;
+			buildPhases = (
+				5DBE1FD3E6334EBC9767F05E /* [CP] Check Pods Manifest.lock */,
+				2658B6AF2B80A3F400299AEA /* Sources */,
+				2658B6B02B80A3F400299AEA /* Frameworks */,
+				2658B6B12B80A3F400299AEA /* Resources */,
+				ED729DC52EB58881EB2AA965 /* [CP] Embed Pods Frameworks */,
+				FDC3D107A8207D6D5A268B9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplexRNNaviagtion;
+			packageProductDependencies = (
+				26A4E1CB2B890CE7004D13EB /* ReactBridge */,
+			);
+			productName = ComplexRNNaviagtion;
+			productReference = 2658B6B32B80A3F400299AEA /* ComplexRNNaviagtion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2658B6C82B80A3F500299AEA /* ComplexRNNaviagtionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2658B6E02B80A3F500299AEA /* Build configuration list for PBXNativeTarget "ComplexRNNaviagtionTests" */;
+			buildPhases = (
+				6FE2F48333752992E579CBAF /* [CP] Check Pods Manifest.lock */,
+				2658B6C52B80A3F500299AEA /* Sources */,
+				2658B6C62B80A3F500299AEA /* Frameworks */,
+				2658B6C72B80A3F500299AEA /* Resources */,
+				126232AB03126926A195FE27 /* [CP] Embed Pods Frameworks */,
+				89238AF43160835161655AEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2658B6CB2B80A3F500299AEA /* PBXTargetDependency */,
+			);
+			name = ComplexRNNaviagtionTests;
+			productName = ComplexRNNaviagtionTests;
+			productReference = 2658B6C92B80A3F500299AEA /* ComplexRNNaviagtionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2658B6D22B80A3F500299AEA /* ComplexRNNaviagtionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2658B6E32B80A3F500299AEA /* Build configuration list for PBXNativeTarget "ComplexRNNaviagtionUITests" */;
+			buildPhases = (
+				2658B6CF2B80A3F500299AEA /* Sources */,
+				2658B6D02B80A3F500299AEA /* Frameworks */,
+				2658B6D12B80A3F500299AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2658B6D52B80A3F500299AEA /* PBXTargetDependency */,
+			);
+			name = ComplexRNNaviagtionUITests;
+			productName = ComplexRNNaviagtionUITests;
+			productReference = 2658B6D32B80A3F500299AEA /* ComplexRNNaviagtionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2658B6AB2B80A3F400299AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2658B6B22B80A3F400299AEA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2658B6C82B80A3F500299AEA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2658B6B22B80A3F400299AEA;
+					};
+					2658B6D22B80A3F500299AEA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2658B6B22B80A3F400299AEA;
+					};
+				};
+			};
+			buildConfigurationList = 2658B6AE2B80A3F400299AEA /* Build configuration list for PBXProject "ComplexRNNaviagtion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2658B6AA2B80A3F400299AEA;
+			packageReferences = (
+				26A4E1CA2B890CE7004D13EB /* XCRemoteSwiftPackageReference "ReactBridge" */,
+			);
+			productRefGroup = 2658B6B42B80A3F400299AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2658B6B22B80A3F400299AEA /* ComplexRNNaviagtion */,
+				2658B6C82B80A3F500299AEA /* ComplexRNNaviagtionTests */,
+				2658B6D22B80A3F500299AEA /* ComplexRNNaviagtionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2658B6B12B80A3F400299AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2658B6C32B80A3F500299AEA /* LaunchScreen.storyboard in Resources */,
+				2658B6C02B80A3F500299AEA /* Assets.xcassets in Resources */,
+				2658B6BE2B80A3F400299AEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2658B6C72B80A3F500299AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2658B6D12B80A3F500299AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		126232AB03126926A195FE27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBE1FD3E6334EBC9767F05E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComplexRNNaviagtion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE2F48333752992E579CBAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89238AF43160835161655AEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests/Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED729DC52EB58881EB2AA965 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC3D107A8207D6D5A268B9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComplexRNNaviagtion/Pods-ComplexRNNaviagtion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2658B6AF2B80A3F400299AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26446B322B87BF2000D4222E /* NotificationViewController.swift in Sources */,
+				26A4E1C92B890C6A004D13EB /* AppModule.swift in Sources */,
+				2666A2732B8F678C00C393AB /* SwiftUIView.swift in Sources */,
+				2658B6BB2B80A3F400299AEA /* ViewController.swift in Sources */,
+				2658B6B72B80A3F400299AEA /* AppDelegate.swift in Sources */,
+				2658B6B92B80A3F400299AEA /* SceneDelegate.swift in Sources */,
+				26446B302B87BF1000D4222E /* TransactionViewController.swift in Sources */,
+				26446B342B87BF2C00D4222E /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2658B6C52B80A3F500299AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2658B6CE2B80A3F500299AEA /* ComplexRNNaviagtionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2658B6CF2B80A3F500299AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2658B6D82B80A3F500299AEA /* ComplexRNNaviagtionUITests.swift in Sources */,
+				2658B6DA2B80A3F500299AEA /* ComplexRNNaviagtionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2658B6CB2B80A3F500299AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2658B6B22B80A3F400299AEA /* ComplexRNNaviagtion */;
+			targetProxy = 2658B6CA2B80A3F500299AEA /* PBXContainerItemProxy */;
+		};
+		2658B6D52B80A3F500299AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2658B6B22B80A3F400299AEA /* ComplexRNNaviagtion */;
+			targetProxy = 2658B6D42B80A3F500299AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2658B6BC2B80A3F400299AEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2658B6BD2B80A3F400299AEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2658B6C12B80A3F500299AEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2658B6C22B80A3F500299AEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2658B6DB2B80A3F500299AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		2658B6DC2B80A3F500299AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2658B6DE2B80A3F500299AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C4F9CD766D1999E7D97D48 /* Pods-ComplexRNNaviagtion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKCB6LBR4L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComplexRNNaviagtion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isathya.ComplexRNNaviagtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2658B6DF2B80A3F500299AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D816E2890C8539A405B75E38 /* Pods-ComplexRNNaviagtion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKCB6LBR4L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComplexRNNaviagtion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isathya.ComplexRNNaviagtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2658B6E12B80A3F500299AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FAA24B4F352C111F2BF18F /* Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKCB6LBR4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isathya.ComplexRNNaviagtionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComplexRNNaviagtion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ComplexRNNaviagtion";
+			};
+			name = Debug;
+		};
+		2658B6E22B80A3F500299AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612676F4122EB3C58CEFD146 /* Pods-ComplexRNNaviagtion-ComplexRNNaviagtionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKCB6LBR4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isathya.ComplexRNNaviagtionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComplexRNNaviagtion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ComplexRNNaviagtion";
+			};
+			name = Release;
+		};
+		2658B6E42B80A3F500299AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKCB6LBR4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isathya.ComplexRNNaviagtionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComplexRNNaviagtion;
+			};
+			name = Debug;
+		};
+		2658B6E52B80A3F500299AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKCB6LBR4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isathya.ComplexRNNaviagtionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComplexRNNaviagtion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2658B6AE2B80A3F400299AEA /* Build configuration list for PBXProject "ComplexRNNaviagtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2658B6DB2B80A3F500299AEA /* Debug */,
+				2658B6DC2B80A3F500299AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2658B6DD2B80A3F500299AEA /* Build configuration list for PBXNativeTarget "ComplexRNNaviagtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2658B6DE2B80A3F500299AEA /* Debug */,
+				2658B6DF2B80A3F500299AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2658B6E02B80A3F500299AEA /* Build configuration list for PBXNativeTarget "ComplexRNNaviagtionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2658B6E12B80A3F500299AEA /* Debug */,
+				2658B6E22B80A3F500299AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2658B6E32B80A3F500299AEA /* Build configuration list for PBXNativeTarget "ComplexRNNaviagtionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2658B6E42B80A3F500299AEA /* Debug */,
+				2658B6E52B80A3F500299AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26A4E1CA2B890CE7004D13EB /* XCRemoteSwiftPackageReference "ReactBridge" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ikhvorost/ReactBridge.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26A4E1CB2B890CE7004D13EB /* ReactBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26A4E1CA2B890CE7004D13EB /* XCRemoteSwiftPackageReference "ReactBridge" */;
+			productName = ReactBridge;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2658B6AB2B80A3F400299AEA /* Project object */;
+}
